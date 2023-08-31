@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/flashlightFragment">
+
+    <fragment
+        android:id="@+id/flashlightFragment"
+        android:name="com.example.lightbeam.feature.flashlight.FlashlightFragment"
+        android:label="fragment_flashlight"
+        tools:layout="@layout/fragment_flashlight" >
+        <action
+            android:id="@+id/action_flashlightFragment_to_changeColorFragment"
+            app:destination="@id/changeColorFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/changeColorFragment"
+        android:name="com.example.lightbeam.feature.changecolor.ChangeColorFragment"
+        android:label="fragment_change_color"
+        tools:layout="@layout/fragment_change_color" />
+</navigation>

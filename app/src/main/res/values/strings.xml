@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LightBeam</string>
+    <string name="change_color">Поменять цвет иконок</string>
+    <string name="icon_color">Поменять цвет иконок</string>
+</resources>
